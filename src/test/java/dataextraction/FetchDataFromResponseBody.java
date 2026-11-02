@@ -60,6 +60,37 @@ public class FetchDataFromResponseBody {
 		
 		
 		
+		//Assignment: WAP to find the email address of the user whose last name is “Edwards”
+		
+		for(int i=0; i<6; i++)
+		{
+			String lastNameOfUser = jp.getString("data["+i+"].last_name");
+			
+			if(lastNameOfUser.equals("Edwards"))
+			{
+				String emailValue = jp.getString("data["+i+"].email");
+				
+				System.out.println("Email address is "+emailValue);
+				
+				break;
+			}
+			
+		}
+		
+		
+		int sizeOfAnArray = jp.getInt("data.size()");
+		
+		System.out.println("Size of an array is : "+ sizeOfAnArray);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 	}

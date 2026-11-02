@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-30T22:26:48 IST" name="Default suite" finished-at="2026-10-30T22:26:51 IST" duration-ms="3142">
+  <suite started-at="2026-11-02T22:11:01 IST" name="Default suite" finished-at="2026-11-02T22:11:02 IST" duration-ms="1070">
     <groups>
     </groups>
-    <test started-at="2026-10-30T22:26:48 IST" name="Default test" finished-at="2026-10-30T22:26:51 IST" duration-ms="3142">
-      <class name="dataextraction.FetchDataFromResponseBody">
-        <test-method signature="fetchResponseBodyData()[pri:0, instance:dataextraction.FetchDataFromResponseBody@123ef382]" started-at="2026-10-30T22:26:48 IST" name="fetchResponseBodyData" finished-at="2026-10-30T22:26:51 IST" duration-ms="3084" status="PASS">
+    <test started-at="2026-11-02T22:11:01 IST" name="Default test" finished-at="2026-11-02T22:11:02 IST" duration-ms="1070">
+      <class name="dataextraction.DataExtractionFromJsonFile">
+        <test-method signature="readDataFromJsonFile()[pri:0, instance:dataextraction.DataExtractionFromJsonFile@dbf57b3]" started-at="2026-11-02T22:11:01 IST" name="readDataFromJsonFile" finished-at="2026-11-02T22:11:02 IST" duration-ms="1017" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fetchResponseBodyData -->
-      </class> <!-- dataextraction.FetchDataFromResponseBody -->
+        </test-method> <!-- readDataFromJsonFile -->
+      </class> <!-- dataextraction.DataExtractionFromJsonFile -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
