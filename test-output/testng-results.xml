@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-11-02T22:11:01 IST" name="Default suite" finished-at="2026-11-02T22:11:02 IST" duration-ms="1070">
+  <suite started-at="2026-11-03T22:02:36 IST" name="Default suite" finished-at="2026-11-03T22:02:38 IST" duration-ms="1887">
     <groups>
     </groups>
-    <test started-at="2026-11-02T22:11:01 IST" name="Default test" finished-at="2026-11-02T22:11:02 IST" duration-ms="1070">
-      <class name="dataextraction.DataExtractionFromJsonFile">
-        <test-method signature="readDataFromJsonFile()[pri:0, instance:dataextraction.DataExtractionFromJsonFile@dbf57b3]" started-at="2026-11-02T22:11:01 IST" name="readDataFromJsonFile" finished-at="2026-11-02T22:11:02 IST" duration-ms="1017" status="PASS">
+    <test started-at="2026-11-03T22:02:36 IST" name="Default test" finished-at="2026-11-03T22:02:38 IST" duration-ms="1887">
+      <class name="ecom.POST_LoginAPI">
+        <test-method signature="loginToApp()[pri:0, instance:ecom.POST_LoginAPI@123ef382]" started-at="2026-11-03T22:02:36 IST" name="loginToApp" finished-at="2026-11-03T22:02:38 IST" duration-ms="1831" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- readDataFromJsonFile -->
-      </class> <!-- dataextraction.DataExtractionFromJsonFile -->
+        </test-method> <!-- loginToApp -->
+      </class> <!-- ecom.POST_LoginAPI -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
