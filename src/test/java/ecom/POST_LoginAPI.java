@@ -7,7 +7,7 @@ import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.*;
 
-public class POST_LoginAPI {
+public class POST_LoginAPI extends BaseData {
 	
 	
 	@Test
@@ -40,12 +40,12 @@ public class POST_LoginAPI {
 	
 	JsonPath jp = resp.jsonPath();
 	
-	String tokenValue = jp.getString("token");
+	 tokenValue = jp.getString("token");
 	
 	System.out.println(tokenValue);
 	
 	
-	String userId = jp.getString("userId");
+	 userId = jp.getString("userId");
 		
 	System.out.println(userId);
 	}

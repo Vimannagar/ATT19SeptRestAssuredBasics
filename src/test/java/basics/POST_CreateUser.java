@@ -30,11 +30,15 @@ public class POST_CreateUser {
 			
 			.header("accept", "application/json")
 			
+			.log().all()
+			
 			.when()
 			
 			.post("user")
 			
 			.then()
+			
+			.log().all()
 			
 			.extract()
 			
