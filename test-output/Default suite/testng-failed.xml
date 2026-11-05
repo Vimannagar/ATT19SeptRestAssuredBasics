@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dataextraction.DataExtractionFromReadyMadeJson">
+      <class name="sendingdataasobject.SampleJson1">
         <methods>
-          <include name="getReadFromReadyMadeResponse"/>
+          <include name="getDetails"/>
         </methods>
-      </class> <!-- dataextraction.DataExtractionFromReadyMadeJson -->
+      </class> <!-- sendingdataasobject.SampleJson1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
