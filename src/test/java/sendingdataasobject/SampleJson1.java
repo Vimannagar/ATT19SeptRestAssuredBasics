@@ -33,11 +33,13 @@ public class SampleJson1 {
 	mainObject.add(zerothIndex);
 	mainObject.add(firstIndex);
 	
-	baseURI = "http://localhost.com";
+	baseURI = "https://40cabe32-8d51-48d1-a34c-2b04134b2540.mock.pstmn.io";
 	
 	given()
 	
 	.header("Content-Type", "application/json")
+	
+	.header("x-mock-match-request-body", "true")
 	
 	.body(mainObject)
 	
@@ -45,7 +47,7 @@ public class SampleJson1 {
 	
 	.when()
 	
-	.post("/testing")
+	.post("/att19septevening")
 	
 	.then()
 	
