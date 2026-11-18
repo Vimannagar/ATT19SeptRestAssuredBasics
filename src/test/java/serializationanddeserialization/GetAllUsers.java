@@ -46,6 +46,22 @@ public class GetAllUsers {
 		System.out.println(firstNameValue);
 
 // WAP to get the value of lastname whose id is 11
+		
+		for(Data dataObj :dataObject)
+		{
+			int idValue = dataObj.getId();
+			
+			if(idValue == 11)
+			{
+				String lastNameValue = dataObj.getLast_name();
+				System.out.println(lastNameValue);
+			}
+		}
+			
+		
+		
+		
+		
 
 	}
 

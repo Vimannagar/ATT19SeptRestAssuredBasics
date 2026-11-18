@@ -16,25 +16,16 @@ private int pincode;
 		return city;
 	}
 	
-	public void setPincode(int pincode)
-	{
-		 this.pincode= pincode;
-	}
 	
-	public int getPincode()
+	
+	public void getPincode()
 	{
-		return pincode;
+		getCity();
 	}
 	
 	
 	public static void main(String[] args) {
 		
-		A a = new A();
-		
-		
-		a.setCity("Pune");
-		
-		System.out.println(a.getCity());
 		
 		
 		
