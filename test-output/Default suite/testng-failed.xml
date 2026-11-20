@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="sendingdataasobject.SampleJson1">
+      <class name="specbuilders.RequestAndResponseSpecBuilder">
         <methods>
-          <include name="getDetails"/>
+          <include name="createUser"/>
         </methods>
-      </class> <!-- sendingdataasobject.SampleJson1 -->
+      </class> <!-- specbuilders.RequestAndResponseSpecBuilder -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
