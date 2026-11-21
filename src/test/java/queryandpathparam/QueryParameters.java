@@ -1,11 +1,11 @@
 package queryandpathparam;
 
-import org.testng.annotations.Test;
+import static io.restassured.RestAssured.baseURI;
+import static io.restassured.RestAssured.given;
 
-import static io.restassured.RestAssured.*;
-
-import java.util.HashMap;
 import java.util.LinkedHashMap;
+
+import org.testng.annotations.Test;
 
 import io.restassured.response.Response;
 
