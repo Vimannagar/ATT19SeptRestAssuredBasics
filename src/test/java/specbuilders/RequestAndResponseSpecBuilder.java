@@ -31,6 +31,7 @@ public class RequestAndResponseSpecBuilder {
 		requestSpecBuilder.log(LogDetail.ALL);
 
 		requestSpecification = requestSpecBuilder.build();
+		
 
 		ResponseSpecBuilder responseSpecBuilder = new ResponseSpecBuilder();
 
