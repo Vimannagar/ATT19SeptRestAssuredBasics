@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
+import io.restassured.response.ResponseBody;
 import pojo.Data;
 import pojo.GetAllUsersResponseBody;
 
@@ -44,6 +45,7 @@ public class GetAllUsers {
 		String firstNameValue = secondIndexPosition.getFirst_name();
 
 		System.out.println(firstNameValue);
+	
 
 // WAP to get the value of lastname whose id is 11
 		
